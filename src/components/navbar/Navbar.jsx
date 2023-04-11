@@ -34,9 +34,10 @@ const Navbar = () => {
           : <RiMenu3Line  color='#fff' size={27} onClick ={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className='gpt3__'><div/>
-        )
-          
+          <div className='gpt3__navbar-menu_container scale-up-center'>
+            <div></div>
+          </div>
+        )  
         }
       </div>
     </div>
