@@ -2,7 +2,8 @@ import React from 'react'
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers/index';
 import { CTA, Brand, Navbar } from './components/index';
 import './App.css';
-function App() {
+
+const App = () => {
   return (
     <div className='App'>
       <div className='gradient__bg'>
@@ -14,9 +15,8 @@ function App() {
       <Features />
       <Possibility />
       <CTA />
-      < Blog />
-      <Footer />
-     
+      <Blog />
+      <Footer />     
     </div>
   )
 }
