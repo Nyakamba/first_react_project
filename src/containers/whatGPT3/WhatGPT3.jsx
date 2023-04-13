@@ -5,8 +5,8 @@ import {Feature} from '../../components/index'
 
 const WhatGPT3 = () => {
   return (
-    <div className='gpt3__whatgpt3' id='whpt3'>
-      <div className='gpt3__whatgpt3-feautre'>
+    <div className='gpt3__whatgpt3 section__margin' id='whpt3'>
+      <div className='gpt3__whatgpt3-feature'>
         <Feature />
       </div>
       <div className='gpt3__whatgpt3-header'>
