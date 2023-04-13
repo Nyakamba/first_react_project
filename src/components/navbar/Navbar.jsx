@@ -7,7 +7,7 @@ import { useState } from 'react';
 const Menu = ( ) => (
   <>
   <p><a href='#Home'>Home</a></p>
-  <p><a href='#wgpt3?'>What is GPT3?</a></p>
+  <p><a href='#whpt3?'>What is GPT3?</a></p>
   <p><a href='#possibility'>Open AI</a></p>
   <p><a href='#features'>Case Studies</a></p>
   <p><a href='#blog'>Library</a></p>
