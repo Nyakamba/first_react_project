@@ -39,7 +39,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 4rem 0 4rem ;
+  margin: 4rem  0 2rem  ;
 }
 
 .gpt3__whatgpt3-heading h1 {
@@ -47,6 +47,7 @@
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
+  max-width: 510px;
   }
 
   .gpt3__whatgpt3-heading p {
@@ -73,7 +74,7 @@
     flex-direction: column;
 }
 
-  .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+  .gpt3__whatgpt3-container  .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
 }
 
